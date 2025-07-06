@@ -1,0 +1,58 @@
+body{
+    background-color:blue;
+    margin: 2px;
+}
+.homepage{
+    background-color:black;
+    color:white;
+}
+.navbar{
+    background-color:black;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 150%;
+    height: 30%;
+}
+.navbar ul{
+    list-style: none;
+}
+.nav a{
+    color:gold;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    justify-content: center;
+}
+.nav li{
+    display: inline;
+    padding: 3px;
+}
+.navbar img {
+    width: 15%;
+    height: auto;
+    border-radius: 50px;
+}
+
+
+
+.nav{
+    width: 100%;
+}
+.Contact{
+    justify-content: center;
+}
+.review{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 90vh;
+    background-color: black;
+    color: white;
+}
+label{
+    font-size: 2rem;
+}
+input{font-size: 2rem;}
+
+

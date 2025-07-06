@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color:#cccc;
+            margin: 0px;
+        }
+        h1{
+        text-align: center;
+        }
+        .product-container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .product-card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border:1px solid #cccc;
+            border-radius: 15px;
+         background-color: black;
+         border-radius: 5px;
+         width: calc(33.3% - 40px);
+         padding: 10px;
+         margin: 10px;
+         transition: box-shadow  0.2 ease;
+         
+         
+        }
+        .product-card img{
+            width: 100%;
+            height: auto;
+            justify-self: center;
+        }
+        .product-name{
+            text-align: center;
+            color: wheat;
+        }
+        .product-price{
+            text-align: center;
+            color:gray;
+        }
+        .product-card:hover{
+            box-shadow: 0.4px 6px goldenrod;
+        }
+        img{
+            width: 100%
+        }
+        
+    </style>
+
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <b style="color: gold;">sam</b><b style="color: red;">lugard</b>
+        </div>
+        <div class="nav">
+            <ul>
+               <a href=""> BLESSED SAMLUGARD GLOBAL VENTURES LTD </a>
+            </ul>
+        </div>
+    </div>
+    <div class="homepage">
+    <p><b style="color: blue;">Welcome to Samlugard Global Ventures The best distribution company in zuba</b></p>
+    </div>
+    <H1 style="color: black">HOME</H1>
+    <div class="Home">
+      <h3>We deal with all kind of moter spare parts small or big, any one tha suits ur choice</h3>
+      <h3>we offer very fast and reliable services to our customers and market dealers across the world</h3>
+      <h3>we specilize in diffrent types of cars like Daf,MAN DISEL,MAN VOLTS and so many more</h3>
+      </div>
+    
+    <div class="Products">
+    <h1>Product Listing</h1>
+    <div class="product-container">
+
+     <div class="product-card">
+        <img src="Image/media.jpg" alt="product 1">
+        <div class="product-name">pistons</div>
+        <br>
+        <div class="product-price">310,000.00</div>
+     </div>
+
+    
+        <div class="product-card">
+           <img src="Image/swanzy.jpg" alt="product 2">
+           <div class="product-name">sleeves</div>
+           <br>
+           <div class="product-price">150,000.00</div>
+        </div>
+       
+
+       
+        <div class="product-card">
+           <img src="Image/media.jpg" alt="product 3">
+           <div class="product-name">sleeves</div>
+           <br>
+           <div class="product-price">170,000.99</div>
+        </div>
+       
+
+       
+        <div class="product-card">
+           <img src="Image/media.jpg" alt="product 4">
+           <div class="product-name">engine rings</div>
+           <br>
+           <div class="product-price">250,000.00</div>
+        </div>
+       
+
+       
+        <div class="product-card">
+           <img src="Image/media.jpg" alt="product 5">
+           <div class="product-name">sleeves</div>
+           <br>
+           <div class="product-price">160,000.00</div>
+        </div>
+       
+
+      
+        <div class="product-card">
+           <img src="Image/swanzy.jpg" alt="product 6">
+           <div class="product-name">engine sets</div>
+           <br>
+           <div class="product-price">1,000,000.00</div>
+        </div>
+    </div>
+    </div>
+    <h1>Services</h1>
+    <p>we  offer diffrent kind of services such as car parts trailer parts which nare:</p>
+    <ul>
+    <b>Car Parts sales:
+        we offer a vast selection of car parts , including engine components,brake systems and electrical components
+    </b>
+    <br>
+    <b>waranty and returns: We give 3 months of waranty and returns for damaged goods( if it was spoilt by us)</b>
+    <br>
+    <b>Customer support: our team is dedicated to providing excellent customer support and is available to answer ur questions</b>
+    </ul>
+
+    <h1>Contact us</h1>
+    <div class="Contact">
+        <ul>
+        <p>Contact us on the following platforms:</p>
+        <b>Phone Number:08035877892,09165896161</b>
+        <br>
+        <b>email:samlugard1@gmail.com,asonyeemmanuel035@gmail.com</b>
+        <br>
+        <b>Head Office:Jesus's own line motor spare parts zuba</b>
+        <br>
+        <b>Branch Office:God's own line motor spare parts zuba</b>
+        </ul>
+    </div>
+        <h1>Review</h1>
+    <div class="review">
+    <form class="lastpart">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
+        </div>
+        <br>
+    
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+        </div>
+        <br>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+        </div>
+        <br>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <br>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>IMO</option>
+            <option>LAGOS</option>
+            <option>KANO</option>
+            <option>ABUJA</option>
+          </select>
+        </div>
+        <br>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <br>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+    </div>
+
+</body>
+</html>
